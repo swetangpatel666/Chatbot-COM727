@@ -1,0 +1,148 @@
+
+{
+  "intents": [
+    {
+      "tag": "Greetings",
+      "patterns": ["hello", "hey", "hi", "What’s up", "Greetings"],
+      "responses": ["Hello!", "Hey!", "Hello there, I am a Chatbot for your interview preparation. How can I help you?"]
+    },
+    {
+      "tag": "HTML B2",
+      "patterns": ["What is HTML?", "How HTML Works?", "Describe about HTML"],
+      "responses": ["HyperText Markup Language.", "Markup language for web pages.", "Web developers to specify the layout and formatting of content.", "Create web scripts., Markup the pages and text."]
+    },
+    {
+      "tag": "HTML B1",
+      "patterns": ["What's the purpose of <div> in HTML?", "Describe about <div> tag.", "What is work of <div> tag"],
+      "responses": ["Grouping and styling content.", "Content grouping", "It acts like \"divider\" to segment the page into distinct sections", "Creating responsive grid systems", "Components in best structures"]
+    },
+    {
+      "tag": "HTML B3",
+      "patterns": ["How do you make a link in HTML?", "Describe link in HTML.", "What is work of link in HTML?"],
+      "responses": ["By using the <a> tag we can make link", "<a> tag with href attribute", "Using this link tag we can make link of any content in the document."]
+    },
+    {
+      "tag": "HTML B4",
+      "patterns": ["What's the difference between <div> and <span>?", "Describe difference between <div> and <span>.", "What is the uses of <div> and <span>?"],
+      "responses": ["Block vs Inline container", "Block vs Inline element", "Grouping vs Styling", "Structure larger sections of content vs Specific portions of content", "Styling with CSS vs Granular Styling"]
+    },
+    {
+      "tag": "HTML B5",
+      "patterns": ["How do you add comments in HTML?", "Describe comments in HTML", "What is the use of <!--Comment--> in HTML?"],
+      "responses": ["<!-- Comment -->.", "This is a <!-- Comment --> tag"]
+    },
+    {
+      "tag": "CSS B1",
+      "patterns": ["What's CSS used for?", "What is work of CSS?", "Describe about CSS."],
+      "responses": ["Styling web pages", "Maintain a cohesive look in sites", "Transforms HTML documents into visually stunning and engaging web experiences"]
+    },
+    {
+      "tag": "CSS B2",
+      "patterns": ["How do you connect CSS to HTML?", "What is the way of connecting CSS to HTML?"],
+      "responses": ["<link> element", "<link> tag"]
+    },
+    {
+      "tag": "CSS B3",
+      "patterns": ["What's the difference between margin and padding?", "Describe about margin and padding.", "What is the uses of margin padding."],
+      "responses": ["Outside vs Inside spacing", "Outer vs Inner spacing", "Does not contain background color vs Can have a background color or image"]
+    },
+    {
+      "tag": "CSS B4",
+      "patterns": ["What's the CSS box model?", "What is the uses of CSS box model?", "Describe about CSS box model."],
+      "responses": ["Element's layout concept", "Element's layout model", "Wraps around every HTML element"]
+    },
+    {
+      "tag": "CSS B5",
+      "patterns": ["What's the display property used for in CSS??", "What is the uses of display property in CSS?", "Describe about CSS display property."],
+      "responses": ["Controls element's display", "Controls element visibility"]
+    },
+    {
+      "tag": "Intermediate HC1",
+      "patterns": ["What's the display property used for in CSS?", "Describe about CSS display property.", "What is the uses of display property in CSS?"],
+      "responses": ["margin: auto;", "This is a property of display: margin: auto; "]
+    },
+    {
+      "tag": "Intermediate HC2",
+      "patterns": ["What's the purpose of <header>, <footer>, and <nav> in HTML5/CSS?", "Describe about <header>, <footer>, and <nav> in HTML5/CSS.", "What is the uses of <header>, <footer>, and <nav> in HTML5/CSS?"],
+      "responses": ["Semantic tags for page structure", "Structural elements"]
+    },
+    {
+      "tag": "Intermediate HC3",
+      "patterns": ["What's the purpose of <section> in HTML5 and CSS?", "Describe about of <section> in HTML5 and CSS.", "What is the uses of <section> in HTML5 and CSS?"],
+      "responses": ["Defines a thematic grouping of content in a document", "Segment content into cohesive units", "Making it easier for users to group related data"]
+    },
+    {
+      "tag": "Intermediate HC4",
+      "patterns": ["What's the purpose of <article> in HTML5 and CSS?", "Describe about of <article> in HTML5 and CSS.", "What is the uses of <article> in HTML5 and CSS?"],
+      "responses": ["Represents an independent", "Self-contained piece of content within document", "It encapsulates content that reused independently"]
+    },
+    {
+      "tag": "Intermediate HC5",
+      "patterns": ["What's the purpose of <aside> in HTML5 and CSS?", "Describe about of <aside> in HTML5 and CSS.", "What is the uses of <aside> in HTML5 and CSS?"],
+      "responses": ["This tag helps distinguish supplementary content from the primary content", "Content is visually distinct from the main content", "Differentiate between the primary and supplementary content"]
+    },
+    {
+      "tag": "Intermediate HC6",
+      "patterns": ["What's the purpose of <iframe> in HTML5 and CSS?", "Describe about of <iframe> in HTML5 and CSS.", "What is the uses of <iframe> in HTML5 and CSS?"],
+      "responses": ["Used for displaying embedded content from external sources", "Create a nested browsing context within a document", "Providing a convenient way to incorporate dynamic or interactive content from different sources"]
+    },
+    {
+      "tag": "Intermediate HC7",
+      "patterns": ["What's the purpose of <input> in HTML5 and CSS?", "Describe about of <input> in HTML5 and CSS.", "What is the uses of <input> in HTML5 and CSS?"],
+      "responses": ["Used to create interactive form controls within a webpage", "Collect user input, it serves as a gateway for user interaction"]
+    },
+    {
+      "tag": "Intermediate HC8",
+      "patterns": ["What's the purpose of <main> in HTML5 and CSS?", "Describe about of <main> in HTML5 and CSS.", "What is the uses of <main> in HTML5 and CSS?"],
+      "responses": ["Represents the main content area of a document,", "This element encapsulates the central content area of the webpage"]
+
+
+    },
+    {
+      "tag": "Intermediate HC9",
+      "patterns": ["How do you make an element adjust to different screen sizes without media queries?", "Describe about sizes without media queries in HTML5 and CSS.", "What is the uses of sizes without media queries in HTML5 and CSS?"],
+      "responses": ["Relative sizes", "Relative units like percentages"]
+    },
+    {
+      "tag": "Intermediate HC10",
+      "patterns": ["What's the float property used for in HTML/CSS?", "Describe about float property used in HTML and CSS?", "What is the uses of float property used in HTML5 and CSS?"],
+      "responses": ["Controls element positioning", "Element alignment"]
+    },
+    {
+      "tag": "Intermediate HC11",
+      "patterns": ["Explain position: relative, position: absolute, and position: fixed in CSS?", "Describe about position: relative, position: absolute, and position: fixed used and HTML and CSS?", "What is the uses of position: relative, position: absolute, and position: fixed in HTML5 and CSS?"],
+      "responses": ["Change element position, relative: it occupies space within the document, absolute: it does not affect the positioning of other elements, fixed: it remains fixed in the same position even when the page is scrolled."]
+    },
+    {
+      "tag": "Advanced HC1:",
+      "patterns": ["What are CSS preprocessors and why are they used?", "Describe about CSS preprocessors and why are they used in HTML and CSS?", "What is the uses of CSS preprocessors and why are they used in HTML and CSS?"],
+      "responses": ["Enhanced CSS tools", "Enhance CSS with variables, mixins"]
+    },
+    {
+      "tag": "Advanced HC2",
+      "patterns": ["What are CSS frameworks? Give examples.", "Describe about CSS frameworks and give examples in HTML and CSS?", "What is the uses of CSS frameworks and give examples in HTML and CSS"],
+      "responses": ["Prebuilt styles and components", "Style libraries", "Emphasizes simplicity and modularity"]
+    },
+    {
+      "tag": "Advanced HC3",
+      "patterns": ["How does CSS specificity work?", "Describe about CSS specificity work in HTML and CSS?", "What is the uses of CSS specificity work in HTML and CSS"],
+      "responses": ["Styling priority system", "Determines which styles apply"]
+    },
+    {
+      "tag": "Advanced HC4",
+      "patterns": ["What's the difference between CSS Grid and Flexbox layouts?", "Describe about CSS specificity work in HTML and CSS?", "What is the uses of CSS specificity work in HTML and CSS?"],
+      "responses": ["Styling priority system", "Determines which styles apply"]
+    },
+    {
+      "tag": "Advanced HC5",
+      "patterns": ["What's the difference between CSS Grid and Flexbox layouts?", "Describe about CSS specificity work in HTML and CSS?", "What is the uses of CSS specificity work in HTML and CSS?"],
+      "responses": ["Layout models with different strengths", "Layout methods"]
+    },
+    {
+      "tag": "Goodbye",
+      "patterns": ["See you", "Bye", "goodbye"],
+      "responses": ["Thank you for practicing with us.", "See you later.", "Please, come back soon."]
+    }
+  ]
+}
+

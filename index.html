@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for ( 'static' , filename = 'style.css' ) }}">
+</head>
+<body>
+
+    <div class="chat-container">
+        <div id="chat-messages" class="chat-message bot-message">
+        </div> 
+    </div>
+
+    <input type="text" id="chat-input" placeholder="Type your message here...">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#chat-input").keypress(function(event) {
+                if (event.which == 13) {
+                    var inputMessage = $(this).val();
+                    $(this).val("");
+                    $("#chat-messages").append('<div class="chat-message user-message">' + inputMessage + '</div>');
+
+                    $.ajax({
+                        type: "POST",
+                        url: "/ask",
+                        data: { message: inputMessage },
+                        dataType: "json",
+                        success: function(response) {
+                            $("#chat-messages").append('<div class="chat-message bot-message">' + response.message + '</div>');
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
